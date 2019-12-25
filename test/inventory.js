@@ -4,12 +4,12 @@
 
 var should = require('chai').should();
 
-var bitcore = require('bitcore-lib-cash');
+var bsv = require('bsv');
 var P2P = require('../');
 var Inventory = P2P.Inventory;
-var BufferUtils = bitcore.util.buffer;
-var BufferWriter = bitcore.encoding.BufferWriter;
-var BufferReader = bitcore.encoding.BufferReader;
+var BufferUtils = bsv.util.buffer;
+var BufferWriter = bsv.encoding.BufferWriter;
+var BufferReader = bsv.encoding.BufferReader;
 
 describe('Inventory', function() {
 

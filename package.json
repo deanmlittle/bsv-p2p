@@ -1,8 +1,8 @@
 {
-  "name": "bitcore-p2p-cash",
+  "name": "bsv-p2p",
   "version": "1.2.1",
-  "description": "Interface to the bitcoin P2P network for bitcore",
-  "author": "BitPay <dev@bitpay.com>",
+  "description": "A fork of bitcore-p2p-cash for the Bitcoin SV blockchain.",
+  "author": "Dean Little <dean@uptimesv.com>",
   "main": "index.js",
   "scripts": {
     "lint": "gulp lint",
@@ -53,15 +53,17 @@
   ],
   "keywords": [
     "bitcoin",
-    "bitcore"
+    "bitcore",
+    "bitcoin-sv"
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/bitpay/bitcore-p2p.git"
+    "url": "https://github.com/deanmlittle/bsv-p2p.git"
   },
   "dependencies": {
-    "bitcore-lib-cash": "^0.17.0",
     "bloom-filter": "^0.2.0",
+    "bsv": "^1.2.0",
+    "buffer-reverse": "^1.0.1",
     "buffers": "bitpay/node-buffers#v0.1.2-bitpay",
     "socks5-client": "^0.3.6"
   },
