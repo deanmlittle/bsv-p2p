@@ -62,10 +62,12 @@
   },
   "dependencies": {
     "bloom-filter": "^0.2.0",
-    "bsv": "^1.2.0",
     "buffer-reverse": "^1.0.1",
     "buffers": "bitpay/node-buffers#v0.1.2-bitpay",
     "socks5-client": "^1.2.8"
+  },
+  "peerDependencies": {
+    "bsv": "^1.2.0"
   },
   "devDependencies": {
     "bitcore-build": "git://github.com/bitpay/bitcore-build.git",
