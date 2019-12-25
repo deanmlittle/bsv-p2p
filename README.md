@@ -1,20 +1,14 @@
-<img src="http://bitcore.io/css/images/bitcore-p2p.svg" alt="bitcore payment protocol" height="35" width="102">
-
-Bitcore P2P
+BSV-P2P
 =======
 
-[![NPM Package](https://img.shields.io/npm/v/bitcore-p2p.svg?style=flat-square)](https://www.npmjs.org/package/bitcore-p2p)
-[![Build Status](https://img.shields.io/travis/bitpay/bitcore-p2p.svg?branch=master&style=flat-square)](https://travis-ci.org/bitpay/bitcore-p2p)
-[![Coverage Status](https://img.shields.io/coveralls/bitpay/bitcore-p2p.svg?style=flat-square)](https://coveralls.io/r/bitpay/bitcore-p2p?branch=master)
-
-`bitcore-p2p` adds [Bitcoin protocol](https://en.bitcoin.it/wiki/Protocol_documentation) support for Bitcore.
+A fork of `bitcore-p2p` for the Bitcoin SV blockchain that is compatible with BSV.js.
 
 See [the main bitcore repo](https://github.com/bitpay/bitcore) for more information.
 
 ## Getting Started
 
 ```sh
-npm install bitcore-p2p
+npm i -s deanmlittle/bsv-p2p
 ```
 In order to connect to the Bitcoin network, you'll need to know the IP address of at least one node of the network, or use [Pool](/docs/pool.md) to discover peers using a DNS seed.
 
