@@ -39,7 +39,7 @@ peer.on('tx', function(message) {
 });
 ```
 
-Take a look at the [bitcore guide](http://bitcore.io/guide/peer.html) on the usage of the `Peer` class.
+Take a look at the [bitcore guide](https://github.com/bitpay/bitcore/blob/master/packages/bitcore-p2p/docs/peer.md) on the usage of the `Peer` class.
 
 ## Contributing
 
