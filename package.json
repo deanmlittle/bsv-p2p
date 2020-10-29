@@ -62,16 +62,17 @@
   },
   "dependencies": {
     "bloom-filter": "^0.2.0",
+    "bsv": "^1.5.4",
     "buffer-reverse": "^1.0.1",
-    "buffers": "bitpay/node-buffers#v0.1.2-bitpay",
+    "buffers": "github:bitpay/node-buffers#v0.1.2-bitpay",
     "socks5-client": "^1.2.8"
   },
   "devDependencies": {
     "bitcore-build": "git://github.com/bitpay/bitcore-build.git",
-    "brfs": "^1.2.0",
-    "chai": "~1.10.0",
+    "brfs": "^2.0.2",
+    "chai": "~4.2.0",
     "gulp": "^4.0.2",
-    "sinon": "^1.12.2"
+    "sinon": "^9.2.1"
   },
   "license": "MIT"
 }

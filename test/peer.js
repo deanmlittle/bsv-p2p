@@ -73,6 +73,7 @@ describe('Peer', function() {
 
   it('create instance', function() {
     var peer = new Peer('localhost');
+    console.log(peer)
     peer.host.should.equal('localhost');
     peer.network.should.equal(Networks.livenet);
     peer.port.should.equal(Networks.livenet.port);
