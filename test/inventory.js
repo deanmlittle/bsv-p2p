@@ -7,15 +7,14 @@ var should = require('chai').should();
 var bsv = require('bsv');
 var P2P = require('../');
 var Inventory = P2P.Inventory;
-var BufferUtils = bsv.util.buffer;
 var BufferWriter = bsv.encoding.BufferWriter;
 var BufferReader = bsv.encoding.BufferReader;
 
 describe('Inventory', function() {
 
-  var hash = new Buffer('eb951630aba498b9a0d10f72b5ea9e39d5ff04b03dc2231e662f52057f948aa1', 'hex');
-  var hashedStr = BufferUtils.reverse(new Buffer(hash, 'hex')).toString('hex');
-  var inventoryBuffer = new Buffer(
+  var hash = Buffer.from('eb951630aba498b9a0d10f72b5ea9e39d5ff04b03dc2231e662f52057f948aa1', 'hex');
+  var hashedStr = Buffer.from(hash, 'hex').reverse().toString('hex');
+  var inventoryBuffer = Buffer.from(
     '01000000eb951630aba498b9a0d10f72b5ea9e39d5ff04b03dc2231e662f52057f948aa1',
     'hex'
   );
